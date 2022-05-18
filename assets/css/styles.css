@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+background-color: #31343D;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.name h1 a {
+    text-decoration: none;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 20px;
+    padding:5px 10px 10px 50px ;
+    padding-left: 50px;
+    padding-right: 10px;
+    background-color: #92CCCD;
+    margin-top: -15px;
+    margin-bottom: -10px;
+    height: 53px;
+       
+  }
+
+  header a {
+color: #31343D;
+
+
+  }
+
+  header nav {
+    margin: 20px 0;
+    margin-right: 30px;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    color: #92CCCD;  
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.33vw;
+  }
+
+  .main-content {
+line-height: 1.3;
+
+  }
+
+  .section-header {
+    font-size: 50px;
+    color: #3F5976;
+    border-right:10px;
+
+  }
+
+.hero-img {
+    height: 40vh;
+    width: 40vw;
+    display: flex;
+    background-image: url("../css/images/project-background.png");
+    
+}
+
+.hero-sub {
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    background-color: #92CCCD;
+    color: #31343D;
+
+}
