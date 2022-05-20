@@ -147,11 +147,36 @@ header nav ul li a {
 
 }
 
-.main-pic {
-  flex: 1;
+
+  footer {
+    display: flex;
+    width: 95vw;
   }
 
-  .secondaries {
-    flex: 2;
+  .third-box {
+    color: #3f5976;
 
   }
+
+  .contacts {
+    display: flex;
+    
+
+  }
+
+  footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  footer ul li a {
+    color: #3f5976;
+    padding: 10px 15px;
+    font-size: 1.33vw;
+    font-weight: bold;
+
+  }
+  
